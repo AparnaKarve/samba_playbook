@@ -1,0 +1,8 @@
+---
+- name: use galaxy samba role
+  hosts: all 
+  user: ansible
+  become: true
+
+  roles:
+    - role: geerlingguy.samba
